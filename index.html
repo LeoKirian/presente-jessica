@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Dia dos Namorados</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="hero">
+            <h1>Feliz Dia dos Namorados, Jessica</h1>
+            
+            <div class="photo-frame">
+                <img src="foto-casal.jpg" alt="Nossa Foto">
+            </div>
+        </header>
+
+        <section class="message-section">
+            <p class="main-message">
+                [Substitua este texto pela sua mensagem de Dia dos Namorados. Fale sobre o quanto ela é especial, relembre momentos e celebre a data. Lembre-se de não usar os símbolos de menor e maior no texto!]
+            </p>
+        </section>
+
+        <div class="divider"></div>
+
+        <section class="countdown-section">
+            <h2 id="countdown-title">Uma surpresa aguarda você...</h2>
+            
+            <div id="countdown-timer" class="timer">
+                <div class="time-box"><span id="days">00</span><p>Dias</p></div>
+                <div class="time-box"><span id="hours">00</span><p>Horas</p></div>
+                <div class="time-box"><span id="minutes">00</span><p>Minutos</p></div>
+                <div class="time-box"><span id="seconds">00</span><p>Segundos</p></div>
+            </div>
+
+            <button id="unlock-btn" class="hidden">Desbloquear Mensagem</button>
+        </section>
+
+        <section id="secret-message" class="hidden message-section">
+            <p class="main-message secret">
+                [Substitua este texto pela sua mensagem especial que será liberada no dia 04/08!]
+            </p>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
