@@ -1,5 +1,5 @@
 // Data configurada para 04 de Agosto de 2026 no formato Universal (Ano-Mês-Dia)
-const targetDate = new Date("2026-06-11T00:00:00").getTime();
+const targetDate = new Date("2026-08-04T00:00:00").getTime();
 
 const timerElement = document.getElementById("countdown-timer");
 const unlockBtn = document.getElementById("unlock-btn");
