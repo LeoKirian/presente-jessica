@@ -5,28 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feliz Dia dos Namorados</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <header class="hero">
-            <h1>Feliz Dia dos Namorados, meu amor!</h1>
+            <h1>Para Jessica</h1>
             
             <div class="photo-frame">
                 <img src="foto-casal.jpg" alt="Nossa Foto">
             </div>
         </header>
 
+        <!-- Primeira Mensagem (Post de Blog) -->
         <section class="message-section">
+            <div class="post-header">
+                <span class="post-date">12 de Junho de 2026</span>
+                <h3 class="post-title">Feliz dia dos namorados, meu amor!</h3>
+            </div>
             <p class="main-message">
-                [Substitua este texto pela sua mensagem de Dia dos Namorados. Fale sobre o quanto ela é especial, relembre momentos e celebre a data. Lembre-se de não usar os símbolos de menor e maior no texto!]
+                [Substitua este texto pela sua mensagem principal de Dia dos Namorados. Fale sobre o quanto ela é especial, relembre momentos e celebre a data. Lembre-se de não usar os símbolos de menor e maior no texto!]
             </p>
         </section>
 
         <div class="divider"></div>
 
+        <!-- Área da Contagem Regressiva -->
         <section class="countdown-section">
-            <h2 id="countdown-title">Uma nova mensagem aguarda você...</h2>
+            <h2 id="countdown-title">Uma surpresa aguarda você...</h2>
             
             <div id="countdown-timer" class="timer">
                 <div class="time-box"><span id="days">00</span><p>Dias</p></div>
@@ -35,10 +41,15 @@
                 <div class="time-box"><span id="seconds">00</span><p>Segundos</p></div>
             </div>
 
-            <button id="unlock-btn" class="hidden">Desbloquear Mensagem</button>
+            <button id="unlock-btn" class="hidden">Ler Nova Mensagem</button>
         </section>
 
+        <!-- Segunda Mensagem (inicia oculta - Post de Blog) -->
         <section id="secret-message" class="hidden message-section">
+            <div class="post-header">
+                <span class="post-date">04 de Agosto de 2026</span>
+                <h3 class="post-title">O Próximo Capítulo</h3>
+            </div>
             <p class="main-message secret">
                 [Substitua este texto pela sua mensagem especial que será liberada no dia 04/08!]
             </p>
