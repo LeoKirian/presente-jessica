@@ -1,5 +1,5 @@
 // CONFIGURAÇÃO DA PALAVRA-CHAVE (Digite em letras minúsculas)
-const KEYWORD_PASSWORD = "nossa-data"; 
+const KEYWORD_PASSWORD = "cacto"; 
 
 // Data configurada para 04 de Agosto de 2026 no formato Universal
 const targetDate = new Date("2026-08-04T00:00:00").getTime();
